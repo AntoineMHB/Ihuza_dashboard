@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@theme {
+  --breakpoint-sm: 600px;
+  --breakpoint-md: 800px;
+  --breakpoint-lg: 1000px;
+
+  /* Font families */
+  --font-primary: "Poppins", sans-serif;
+
+  /* Primary colors */
+  --primaryBlue: oklch(0.5461 0.2152 262.88);
+  --secondaryBlue: oklch(0.9517 0.0199 267.29);
+}
+
+/* Tailwind utilities */
+@layer utilities {
+  .font-primary {
+    font-family: var(--font-primary);
+  }
+
+  .primaryBlue {
+    color: var(--primaryBlue);
+  }
+
+  .secondaryBlue {
+    color: var(--secondaryBlue);
+  }
+}
