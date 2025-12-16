@@ -1,9 +1,13 @@
 import { Sidebar } from "./components/Sidebar";
+import { TopNavBar } from "./components/TopNavBar";
 
 function App() {
   return (
     <>
-      <Sidebar />
+      <div className="flex gap-20">
+        <Sidebar />
+        <TopNavBar />
+      </div>
     </>
   );
 }

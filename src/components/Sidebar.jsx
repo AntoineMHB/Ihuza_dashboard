@@ -18,29 +18,30 @@ export const Sidebar = () => {
           <span className="font-primary text-sm font-bold">Dashboard</span>
         </div>
 
-        <div className="flex gap-4 px-5">
+        <div className="h-10 rounded-lg mx-5 flex items-center gap-4 hover:bg-(--secondaryBlue) hover:text-(--primaryBlue)">
           <FiUsers size={20} className="" />
           <span className="font-primary text-sm font-bold">Users</span>
         </div>
 
-        <div className="flex gap-4 px-5">
+        <div className="h-10 rounded-lg mx-5 flex items-center gap-4 hover:bg-(--secondaryBlue) hover:text-(--primaryBlue)">
           <BsBoxSeam size={20} className="" />
           <span className="font-primary text-sm font-bold">Products</span>
         </div>
 
-        <div className="flex gap-4 px-5">
+        <div className="h-10 rounded-lg mx-5 flex items-center gap-4 hover:bg-(--secondaryBlue) hover:text-(--primaryBlue)">
           <RiMenu5Fill size={20} className="" />
           <span className="font-primary text-sm font-bold">Assignments</span>
         </div>
 
-        <div className="flex gap-4 px-5">
+        <div className="h-10 rounded-lg mx-5 flex items-center gap-4 hover:bg-(--secondaryBlue) hover:text-(--primaryBlue)">
           <SiDatabricks size={20} className="" />
           <span className="font-primary text-sm font-bold">Categories</span>
         </div>
-      </div>
-      <div className="flex gap-4 px-5">
-        <IoLogOutOutline size={20} className="" />
-        <span className="font-primary text-sm font-bold">Logout</span>
+
+        <div className="h-10 w-40 rounded-lg mx-5 flex items-center gap-4 hover:bg-(--secondaryBlue) hover:text-(--primaryBlue)">
+          <IoLogOutOutline size={20} className="" />
+          <span className="font-primary text-sm font-bold">Logout</span>
+        </div>
       </div>
     </>
   );
