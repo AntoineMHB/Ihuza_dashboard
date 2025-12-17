@@ -7,7 +7,7 @@ import { TiWarningOutline } from "react-icons/ti";
 
 export const StatsRow = () => {
   return (
-    <div className="flex gap-5 my-5">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 my-5">
       <Card className="bg-white border border-gray-100 w-[265px]">
         <CardDescription>
           <div className="flex items-center gap-3 px-5">

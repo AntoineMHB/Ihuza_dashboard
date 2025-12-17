@@ -1,6 +1,7 @@
 import { OverviewCard } from "./OverviewCard";
 import { RecentAddedProdCard } from "./RecentAddedProdCard";
 import { StatsRow } from "./StatsRow";
+import { UsersCard } from "./UsersCard";
 
 export const MainContent = () => {
   return (
@@ -8,6 +9,7 @@ export const MainContent = () => {
       <OverviewCard />
       <StatsRow />
       <RecentAddedProdCard />
+      <UsersCard />
     </div>
   );
 };

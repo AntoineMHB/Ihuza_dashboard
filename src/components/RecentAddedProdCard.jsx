@@ -6,7 +6,7 @@ export const RecentAddedProdCard = () => {
       <CardTitle className="font-primary font-bold px-5">
         Recent Added Products
       </CardTitle>
-      <div className="w-auto h-[1px] bg-gray-200"></div>
+      <div className="h-[1px] bg-gray-200"></div>
       <CardDescription className="px-5 py-1">
         <div className="grid grid-cols-3 gap-5">
           <Card className="border border-gray-300">
