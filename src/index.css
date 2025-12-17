@@ -11,6 +11,7 @@
   /* Primary colors */
   --primaryBlue: oklch(0.5461 0.2152 262.88);
   --secondaryBlue: oklch(0.9517 0.0199 267.29);
+  --secondaryBlack: oklch(44.6% 0.043 257.281);
 }
 
 /* Tailwind utilities */
@@ -25,5 +26,9 @@
 
   .secondaryBlue {
     color: var(--secondaryBlue);
+  }
+
+  .secondaryBlack {
+    color: var(--secondaryBlack);
   }
 }

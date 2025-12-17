@@ -5,23 +5,25 @@ import { MdAccountCircle } from "react-icons/md";
 
 export const TopNavBar = () => {
   return (
-    <div className="h-[60px] w-[1200px] bg-amber-200">
-      <div className="flex flex-col-2 gap-[650px]">
+    <div className="h-[60px] w-[1200px] bg-white border border-gray-200">
+      <div className="px-10 flex flex-col-2 gap-[550px]">
         <div className="grid grid-cols-1">
           <span className="font-primary text-xl font-bold">Dashboard</span>
-          <span className="font-primary text-sm font-semibold">
+          <span className="font-primary text-sm font-medium text-(--secondaryBlack)">
             Welcome Back, Admin
           </span>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-5">
           <IoMoonOutline />
           <IoSettingsOutline />
           <IoMdNotificationsOutline />
-          <span className="font-primary text-sm font-semibold">
-            Admin@ihuza.com
-          </span>
-          <MdAccountCircle size={30} />
+          <div className="flex items-center gap-2">
+            <span className="font-primary text-sm font-medium text-(--secondaryBlack)">
+              Admin@ihuza.com
+            </span>
+            <MdAccountCircle size={35} className="text-(--primaryBlue)" />
+          </div>
         </div>
       </div>
     </div>
