@@ -96,7 +96,7 @@ export const UsersTable = () => {
   return (
     <Table>
       <TableHeader>
-        <TableRow>
+        <TableRow className="border-none">
           <TableHead>
             <span className="px-5 font-primary text-(--secondaryBlack) font-bold text-sm">
               USER
@@ -117,10 +117,10 @@ export const UsersTable = () => {
         </TableRow>
       </TableHeader>
 
-      <TableBody>
+      <TableBody className="bg-white">
         {users.map((user) => (
-          <TableRow key={user.name}>
-            <TableCell className="px-5">
+          <TableRow key={user.name} className="border-b border-gray-200">
+            <TableCell className="px-5 ">
               <div className="flex gap-2">
                 <Avatar className="pt-2">
                   <AvatarFallback>
@@ -148,6 +148,16 @@ export const UsersTable = () => {
               <Badge text={user.status} />
             </TableCell>
             <TableCell>{user.lastLogin}</TableCell>
+            <TableCell>
+              <div className="flex gap-2">
+                <button className="text-(--primaryBlue) text-sm font-bold">
+                  Edit
+                </button>
+                <button className="text-red-600 text-sm font-bold">
+                  Delete
+                </button>
+              </div>
+            </TableCell>
           </TableRow>
         ))}
       </TableBody>

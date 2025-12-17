@@ -1,4 +1,5 @@
 import { OverviewCard } from "./OverviewCard";
+import { RecentActivityCard } from "./RecentActivityCard";
 import { RecentAddedProdCard } from "./RecentAddedProdCard";
 import { StatsRow } from "./StatsRow";
 import { UsersCard } from "./UsersCard";
@@ -12,6 +13,7 @@ export const MainContent = () => {
       <RecentAddedProdCard />
       <UsersCard />
       <UsersTable />
+      <RecentActivityCard />
     </div>
   );
 };
