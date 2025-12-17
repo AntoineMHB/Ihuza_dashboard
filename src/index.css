@@ -10,8 +10,14 @@
 
   /* Primary colors */
   --primaryBlue: oklch(0.5461 0.2152 262.88);
+  --primaryGreen: oklch(0.5175 0.1516 143.65);
+  --primaryBrown: oklch(0.5825 0.1488 52.16);
+
+  /* Secondary colors */
   --secondaryBlue: oklch(0.9517 0.0199 267.29);
   --secondaryBlack: oklch(44.6% 0.043 257.281);
+  --secondaryGreen: oklch(0.8953 0.0567 152.98);
+  --secondaryBrown: oklch(0.876 0.059 65.26);
 }
 
 /* Tailwind utilities */
@@ -24,11 +30,27 @@
     color: var(--primaryBlue);
   }
 
+  .primaryGreen {
+    color: var(--primaryGreen);
+  }
+
+  .primaryBrowmn {
+    color: var(--primaryBrown);
+  }
+
   .secondaryBlue {
     color: var(--secondaryBlue);
   }
 
   .secondaryBlack {
     color: var(--secondaryBlack);
+  }
+
+  .secondaryGreen {
+    color: var(--secondaryGreen);
+  }
+
+  .secondaryBrown {
+    color: var(--secondaryBrown);
   }
 }

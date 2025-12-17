@@ -1,15 +1,17 @@
+import { MainContent } from "./components/MainContent";
 import { OverviewCard } from "./components/OverviewCard";
 import { Sidebar } from "./components/Sidebar";
+import { StatsRow } from "./components/StatsRow";
 import { TopNavBar } from "./components/TopNavBar";
 
 function App() {
   return (
     <>
-      <div className="flex gap-20">
+      <div className="flex ">
         <Sidebar />
         <div>
           <TopNavBar />
-          <OverviewCard />
+          <MainContent />
         </div>
       </div>
     </>

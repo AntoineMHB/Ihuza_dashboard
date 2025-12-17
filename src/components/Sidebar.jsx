@@ -8,7 +8,7 @@ import { IoLogOutOutline } from "react-icons/io5";
 export const Sidebar = () => {
   return (
     <>
-      <div className="w-50 h-125 bg-white flex flex-col gap-5">
+      <div className="w-50 h-125 bg-white flex flex-col gap-5 border border-gray-300">
         <div className="py-10">
           <img src="" alt="logo" />
         </div>
