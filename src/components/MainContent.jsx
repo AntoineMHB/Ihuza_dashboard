@@ -2,6 +2,7 @@ import { OverviewCard } from "./OverviewCard";
 import { RecentAddedProdCard } from "./RecentAddedProdCard";
 import { StatsRow } from "./StatsRow";
 import { UsersCard } from "./UsersCard";
+import { UsersTable } from "./UsersTable";
 
 export const MainContent = () => {
   return (
@@ -10,6 +11,7 @@ export const MainContent = () => {
       <StatsRow />
       <RecentAddedProdCard />
       <UsersCard />
+      <UsersTable />
     </div>
   );
 };
