@@ -1,3 +1,4 @@
+import { OverviewCard } from "./components/OverviewCard";
 import { Sidebar } from "./components/Sidebar";
 import { TopNavBar } from "./components/TopNavBar";
 
@@ -6,7 +7,10 @@ function App() {
     <>
       <div className="flex gap-20">
         <Sidebar />
-        <TopNavBar />
+        <div>
+          <TopNavBar />
+          <OverviewCard />
+        </div>
       </div>
     </>
   );
