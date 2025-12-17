@@ -11,6 +11,7 @@ function App() {
         <Sidebar />
         <div>
           <TopNavBar />
+          <div className="bg-green-500 text-green-200">OK</div>
           <MainContent />
         </div>
       </div>

@@ -8,6 +8,7 @@ import {
   TableHeader,
   TableRow,
 } from "./ui/table";
+import { Badge } from "./ui/badge";
 
 const users = [
   {
@@ -140,8 +141,12 @@ export const UsersTable = () => {
                 </div>
               </div>
             </TableCell>
-            <TableCell>{user.role}</TableCell>
-            <TableCell>{user.status}</TableCell>
+            <TableCell>
+              <Badge text={user.role} />
+            </TableCell>
+            <TableCell>
+              <Badge text={user.status} />
+            </TableCell>
             <TableCell>{user.lastLogin}</TableCell>
           </TableRow>
         ))}
